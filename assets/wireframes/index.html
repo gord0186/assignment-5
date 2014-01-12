@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+	<link href="css/general.css" rel="stylesheet">
+
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1" >
+	
+</head>
+
+<body>
+	
+	<header>
+		<h1><a href="index.html">Kenneth Gordon</a></h1>
+		<a href="#nav" class="nav-btn hide-text"></a>
+		<nav class="nav nav-top" data-state="collapsed">
+			<ul>
+				
+				<li><a href="index.html">home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">contacts</a></li>
+				<li><a href="bio.html">Bio</a></li>
+					
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+	
+		<div class="home-dis">
+			
+			<!--flexslider start-->
+		
+			<div class="flexslider">
+			  <ul class="slides">
+				<li>
+				  <img src="http://placekitten.com/300/200" alt="kitten" />
+				</li>
+				<li>
+				  <img src="http://placepuppy.it/300/200" alt="kitten"/>
+				</li>
+				<li>
+				  <img src="http://flickholdr.com/300/200" alt="kitten"/>
+				</li>
+			  </ul>
+			</div>
+			
+			<!--flexslider end-->
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut dui vel turpis bibendum venenatis. Duis congue vestibulum convallis. Nullam imperdiet non risus at dignissim. Proin quis hendrerit leo. Duis a placerat ante. Integer malesuada dui sit amet mollis mattis. Nunc ultrices varius purus id laoreet ed est diam, convallis vitae blandit ut, aliquet id ipsum. Etiam sollicitudin scelerisque orci et sagittis. Mauris varius magna id nisi auctor eleifend. Fusce facilisis nibh quis enim venenatis, ac tincidunt dui pellentesque. Pellentesque ut enim vel leo posuere dictum a in lorem. Aenean ullamcorper odio turpis. Ut eleifend diam at molestie aliquam.</p>
+			
+		</div>
+	
+	</main>
+<footer>
+	
+	<nav id="nav" class="nav nav-bottom">
+		<ul>
+			<li><a href="index.html">home</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">contacts</a></li>
+			<li><a href="bio.html">Bio</a></li>	
+		</ul>
+	</nav>
+	
+
+	<p>2013© Kenneth Gordon</p>
+	
+</footer>
+
+<script src="js/nav.js"></script>
+
+<!--silder start-->
+		<!--import the jquary-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<!--import the flexslier plugin-->
+		<script src="flexslider/jquery.flexslider-min.js"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+		  $(window).load(function() {
+			$('.flexslider').flexslider({
+				pauseOnHover: true,            
+				animation: "slide", 
+				smoothHeight: true,
+			});
+		  });
+		</script>
+<!--slider end-->
+</body>
+</html>
